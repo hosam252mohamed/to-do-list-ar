@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="sweetalert.min.js"></script> -->
+    <script src="js/sweetalert.js"></script>
+  </head>
+
+  <body>
+    <form action="">
+      <input type="text" placeholder="اضف المهمة الخاصة بك">
+      <input type="submit" value="+">
+    </form>
+    <div class="container">
+      <div class="tasks">
+        <span class="no-tasks">لا يوجد مهام لإظهارها</span>
+      </div>
+      <div class="tasks-completed">المهام المكتملة<span>0</span></div>
+      <div class="tasks-not-completed">المهام الحالية <span>0</span></div>
+      <audio src="audio/add-successfully.mp3" preload="auto" class="success-sound"></audio>
+      <audio src="audio/task-added.mp3" preload="auto" class="add-task-sound"></audio>
+    </div>
+    <button class="remove-all">حذف الكل</button>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>
