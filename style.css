@@ -57,11 +57,6 @@ form input:last-child {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   left: 20px;
-  transform: translateY(-2px);
-  -webkit-transform: translateY(-2px);
-  -moz-transform: translateY(-2px);
-  -ms-transform: translateY(-2px);
-  -o-transform: translateY(-2px);
   transition: 0.5s;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -69,11 +64,11 @@ form input:last-child {
   -o-transition: 0.5s;
 }
 form input:last-child:hover {
-  transform: translateX(-3px);
-  -webkit-transform: translateX(-3px);
-  -moz-transform: translateX(-3px);
-  -ms-transform: translateX(-3px);
-  -o-transform: translateX(-3px);
+  transform: translateY(1.5px);
+  -webkit-transform: translateY(1.5px);
+  -moz-transform: translateY(1.5px);
+  -ms-transform: translateY(1.5px);
+  -o-transform: translateY(1.5px);
   background-color: rgb(240, 64, 0);
   width: 70px;
   height: 50px;
